@@ -31,6 +31,10 @@
     position: relative;
    left: 290px;
   }
+  #date:hover,#date1:hover,#date2:hover{
+    cursor: pointer;
+    border: solid green 3px;
+  }
   #date2{
     position: relative;
     left: 340px;
@@ -47,6 +51,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  nav{
+    padding-top: 20px;
   }
   .img1{
     height: 200px;
@@ -81,7 +88,7 @@
   }
   
   .nav-links a:hover {
-    color: #ff00ff;
+    color: orange;
   }
   
   /* Banner Section */
@@ -90,7 +97,10 @@
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-color: rgb(14, 14, 26);
+    background-image: url("https://manybackgrounds.com/images/hd/mountain-trees-minimalist-7xpryajznty61ra3.webp");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center -330px;
   }
   
   .banner h2 {
@@ -118,7 +128,7 @@
   
   .explore-btn:hover {
     cursor: pointer;
-    background-color: #ff00ff;
+    background-color: orange;
     transform: scale(1.1);
   }
   
@@ -126,6 +136,10 @@
   .booking {
     background-color: #111;
     padding: 60px 0;
+    background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1pbmltYWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center -70px; 
   }
   
   .booking h2 {
@@ -153,14 +167,14 @@
   
   .slot-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+    box-shadow: 0 0 30px orange;
     cursor: pointer;
   }
   
   .slot-card h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #ff00ff;
+    color: orange;
   }
   
   .slot-card p {
@@ -182,21 +196,34 @@
     bottom: 22px;
     height: 30px;
   }
+  span{
+    color: orange;
+  }
+
   .ss{
     width: 400px;
     font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 1px;
+    
    
   }
   .bu{
     width: 50px;
     background-color: #0a0a0a;
     color: #00f2fe;
+    position: relative;
+    top: 5px;
+    border-radius: 0 10px 10px 0;
   }
   #sign{
     border: solid 1px red;
     border-radius: 20px;
-    width: 80px;
+    width: 90px;
     text-align: center;
+    position: relative;
+    left: 150px;
   }
   #sign:hover{
     cursor: pointer;

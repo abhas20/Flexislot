@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Futuristic Slot Booking</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="C:\Users\rakhi\Pictures\Screenshots\Screenshot 2024-10-08 125642.png" type="image/x-icon">
+  <link rel="icon" href="Flexislot\img\Screenshot 2024-10-08 125642.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -14,20 +14,19 @@
   <!-- Navigation Bar -->
   <header class="navbar">
     <div class="container">
-      <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="logo">FlexiSlot</h1>
-      <img src="Flexi- Slot (2).png" alt="Flexislot" class="img">
-      <!-- <img class="img1" src="C:\Users\rakhi\Desktop\Wda\WhatsApp Image 2024-10-08 at 22.02.40.jpeg"> -->
+      <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="logo">Flexi<span>Slot</span></h1>
+      <img src="C:\Users\rakhi\Desktop\Wda\Flexislot\img\Flexi- Slot (2).png" alt="Flexislot" class="img">
       <nav>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Book Slot</a></li>
           <li><a href="#">My Bookings</a></li>
           <li><a href="#">Contact</a></li>
+          <input placeholder="Search Here" class="ss search">
+          <li><button class="search bu"><i class="fa-solid fa-magnifying-glass"></i></button></li>
           <li id="sign"><a href="login.html">Login</a></li>
           <li id="sign"><a href="signup.html">Sign up</a></li>
         </ul>
-        <input placeholder="Search Here" class="ss search">
-        <button class="search bu"><i class="fa-solid fa-magnifying-glass"></i></button>
       </nav>
     </div>
   </header>
@@ -40,9 +39,38 @@
       <button class="explore-btn">Explore Slots</button>
     </div>
   </section>
+</section>
+<!-- Slot Booking Section -->
+<section class="booking one">
+ <div class="container">
+   <h2 >Book Your Seat in Lab <input id="date1" type="date"></h2>
+   <div class="slots-grid">
+     <div class="slot-card">
+       <h3>Slot 1</h3>
+       <p>10:00 AM - 11:00 AM</p>
+       <button class="book-btn">Available Beds</button>
+     </div>
+     <div class="slot-card">
+       <h3>Slot 2</h3>
+       <p>11:00 AM - 12:00 PM</p>
+       <button class="book-btn">Available Beds</button>
+     </div>
+     <div class="slot-card">
+       <h3>Slot 3</h3>
+       <p>12:00 PM - 01:00 PM</p>
+       <button class="book-btn">Available Beds</button>
+     </div>
+     <div class="slot-card">
+       <h3>Slot 4</h3>
+       <p>01:00 PM - 02:00 PM</p>
+       <button class="book-btn">Available Beds</button>
+     </div>
+   </div>
+ </div>
+</section>
 
   <!-- Slot Booking Section -->
-  <section class="booking">
+  <section class="booking three">
     <div class="container">
       <h2>Select Your Slot (For library) <input id="date" type="Date"></h2>
       
@@ -69,39 +97,11 @@
         </div>
       </div>
     </div>
-  </section>
+
    <!-- Slot Booking Section -->
-   <section class="booking">
+   <section class="booking two">
     <div class="container">
-      <h2>Book Your Seat in Lab <input id="date1" type="date"></h2>
-      <div class="slots-grid">
-        <div class="slot-card">
-          <h3>Slot 1</h3>
-          <p>10:00 AM - 11:00 AM</p>
-          <button class="book-btn">Available Beds</button>
-        </div>
-        <div class="slot-card">
-          <h3>Slot 2</h3>
-          <p>11:00 AM - 12:00 PM</p>
-          <button class="book-btn">Available Beds</button>
-        </div>
-        <div class="slot-card">
-          <h3>Slot 3</h3>
-          <p>12:00 PM - 01:00 PM</p>
-          <button class="book-btn">Available Beds</button>
-        </div>
-        <div class="slot-card">
-          <h3>Slot 4</h3>
-          <p>01:00 PM - 02:00 PM</p>
-          <button class="book-btn">Available Beds</button>
-        </div>
-      </div>
-    </div>
-  </section>
-   <!-- Slot Booking Section -->
-   <section class="booking">
-    <div class="container">
-      <h2>Book Your lecture Hall <input id="date2" type="date"></h2>
+      <h2 >Book Your lecture Hall <input id="date2" type="date"></h2>
       <div class="slots-grid">
         <div class="slot-card">
           <h3>Slot 1</h3>
@@ -135,6 +135,7 @@
               <h3>About Us</h3>
               <p>
                   Our website is dedicated to provide the best sevice to book your desired slot. Our mission is to deliver high-quality solutions with a focus on customer satisfaction.
+                  FlexiSlot is a cutting-edge online booking platform designed to streamline appointment scheduling. Our purpose is to provide a seamless experience for customers and service providers alike, saving time and reducing no-shows.
               </p>
           </div>
 
@@ -153,9 +154,10 @@
           <div class="footer-section">
               <h3>Contact Us</h3>
               <ul>
-                  <li>123 Street, City, Country</li>
-                  <li>Email: info@example.com</li>
-                  <li>Phone: +123 456 7890</li>
+                <li>IIIT Lucknow</li>
+                <li>Chak Ganjaria, C. G. City</li>
+                <li>Lucknow,226002</li>
+                <li>iiitl.ac.in</li>
               </ul>
               <div class="social-icons">
                   <a href="#" ><i class="fab fa-facebook-f"></i></a>
