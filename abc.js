@@ -1,0 +1,2 @@
+df=document.getElementsByClassName("logo")
+

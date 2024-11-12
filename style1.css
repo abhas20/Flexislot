@@ -1,0 +1,36 @@
+body {
+    background-color: black; 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+}
+.navbar{
+    background-color: black;
+    border: 1px solid gray;
+}
+p {
+    color: #6c757d; 
+    margin-bottom: 40px; 
+}
+
+.form-control {
+    border-radius: 10px; 
+}
+
+.btn-primary {
+    background-color: #007bff; 
+    border: none; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /
+       
+}
+
+.logo{
+    position: relative;
+    left: 48%;
+    top: 30px
+}

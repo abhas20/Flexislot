@@ -285,7 +285,7 @@
       margin: 10px 0;
   }
 
-  .footer-section ul li a {
+  .footer-section ul li a,a {
       color: #aaa;
       text-decoration: none;
       transition: color 0.3s;
