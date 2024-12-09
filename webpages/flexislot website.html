@@ -48,22 +48,22 @@
      <div class="slot-card">
        <h3>Slot 1</h3>
        <p>10:00 AM - 11:00 AM</p>
-       <button class="book-btn">Available Beds</button>
+       <button class="book-btn">Available seats</button>
      </div>
      <div class="slot-card">
        <h3>Slot 2</h3>
        <p>11:00 AM - 12:00 PM</p>
-       <button class="book-btn">Available Beds</button>
+       <button class="book-btn">Available seats</button>
      </div>
      <div class="slot-card">
        <h3>Slot 3</h3>
        <p>12:00 PM - 01:00 PM</p>
-       <button class="book-btn">Available Beds</button>
+       <button class="book-btn">Available seats</button>
      </div>
      <div class="slot-card">
        <h3>Slot 4</h3>
        <p>01:00 PM - 02:00 PM</p>
-       <button class="book-btn">Available Beds</button>
+       <button class="book-btn">Available seats</button>
      </div>
    </div>
  </div>
@@ -168,11 +168,26 @@
               </div>
           </div>
       </div>
-
+      
       <div class="footer-bottom">
-          &copy; 2024 Website Flexislot. All Rights Reserved.
+        &copy; 2024 Website Flexislot. All Rights Reserved.<br>
       </div>
+      <button id="toip"><i class="fa-solid fa-arrow-up"></i></button>
   
 
 </body>
+<script>
+  let explore=document.querySelector(".explore-btn");
+  let toip=document.querySelector("#toip");
+  explore.addEventListener("click",()=>{
+    window.scrollBy({
+      top:600,
+      behavior:"smooth"
+  })
+  })
+  toip.addEventListener("click",()=>{
+    window.scrollTo(0,0);
+    console.log("click")
+  })
+</script>
 </html>

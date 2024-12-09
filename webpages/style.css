@@ -218,7 +218,6 @@
     border-radius: 0 10px 10px 0;
   }
   #sign{
-    border: solid 1px red;
     border-radius: 20px;
     width: 90px;
     text-align: center;
@@ -326,4 +325,12 @@ input{
 .ab{
   position: relative;
   left: 120px;
+}
+#toip{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  right: 20px;
+  
 }
