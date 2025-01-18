@@ -2,8 +2,26 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     color: #fff;
+   
 }
-
+i{
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    background-color: aqua;
+    pointer-events: none;
+    animation: animate 2s linear forwards;
+}
+@keyframes animate{
+    0%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(var(--x),var(--y));
+    }
+}
 .navbar {
     padding: 1rem;
 }

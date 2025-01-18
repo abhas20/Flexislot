@@ -80,4 +80,24 @@
     </footer>
 
 </body>
+<script>
+    function cursor(e){
+        let i= document.createElement('i');
+        i.style.left=(e.pageX)+'px';
+        i.style.top=(e.pageY)+'px'
+        i.style.scale=`${Math.random()*4}px`
+        i.style.setProperty('--x',getRandomVal());
+        i.style.setProperty('--y',getRandomVal());
+        
+        document.body.appendChild(i);
+
+        setTimeout(()=>{
+            document.body.removeChild(i);
+        },2000)
+    }
+    document.addEventListener('mousemove',cursor);
+    function getRandomVal(){
+        return `${Math.random()*400-150}px`
+    }
+</script>
 </html>
